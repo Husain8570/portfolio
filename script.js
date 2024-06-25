@@ -23,6 +23,9 @@ let res=document.getElementById("res")
 git.addEventListener('click',()=>{
     window.open('https://github.com/Husain8570',"_blank")
 })
+res.addEventListener('click',()=>{
+    window.open('https://drive.google.com/file/d/1MxOCl_4L5AQL0PSVKIG5QscZTwjikmiD/view',"_blank")
+})
 
 let slides = document.querySelectorAll('.slide');
 let counter = 0;
