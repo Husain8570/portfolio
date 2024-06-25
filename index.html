@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><a href="index.html">Husain's Porfolio</a></div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li><a href="">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsec">
+            <div class="leftsec">
+                Hi, my name is <span class="purple">Husain</span>
+                <div>and I am a passionate</div>
+                <div>Web developer</div>
+                <div class="btns">
+                    <button id="res">Download Resume</button>
+                <button id="git">Visit Github</button>
+                </div>
+            </div>
+
+            <div class="rightsec"><img src="image/PngItem_1127587.png" alt=""></div>
+        </section>
+
+        <section class="second"></section>
+    </main>
+
+    <div id="project">
+        <h1>Project</h1>
+        <div class="cont">
+            <button id="prev">Previous</button>
+            <div class="box">
+                <div class="slide">
+                    <div class="slideleft">
+                        <img src="image/image.png" alt="">
+                    </div>
+                    <div class="slideright">
+                        <h1 style="font-size: 22px;">Stone paper scissors</h1>
+                        Stone paper using html css and javascript
+                        <button id="stone">Demo</button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slideleft">
+                        <img src="image/Screenshot 2024-06-26 004543.png" alt="">
+                    </div>
+                    <div class="slideright">
+                        <h1>Flipkart clone</h1>
+                        Created flipkart clone using html css and javascript
+                        <button id="flipkart">Demo</button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slideleft">
+                        <img src="image/Screenshot 2024-06-26 005024.png" alt="">
+                    </div>
+                    <div class="slideright">
+                        <h1>Calculator</h1>
+                        calculator using html css and javascript
+                        <button id="calc">Demo</button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slideleft">
+                        <img src="image/Screenshot 2024-06-26 034451.png" alt="">
+                    </div>
+                    <div class="slideright">
+                        <h1>Algorithm Visualiser</h1>
+                        Algorithm visualiser using html css and javascript
+                        <button id="algo">Demo</button>
+                    </div>
+                </div>
+               
+            </div>
+            <button id="next">Next</button>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h1>Contact me</h1>
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" >
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" >
+      
+        
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+            <div id="output"></div>
+        </form>
+      </div>
+
+    <footer>
+        <span>Created By
+          <a href="https://github.com/Husain8570" target="_blank"><span class="fab fa-github"></span> Husain </a>
+          | <span class="far fa-copyright"></span> &copy 2024 All rights reserved.</span>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+ 
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 12vh;
+    align-items: center;
+    background-color: rgb(17, 17, 69)
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+    
+}
+.left{
+    font-size: 1.5rem;
+
+}
+.left a{
+    color: white;
+    text-decoration: none;
+}
+.firstsec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.leftsec{
+    /* background-color: red; */
+    width: 30%;
+    font-size: 2.5rem;
+    animation-name: animatetext;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+   
+}
+.rightsec{
+    
+    width: 30%;
+}
+.rightsec img{
+    width: 80%;
+    margin: 50px 0;
+    animation-name: animate;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+.firstsec > div{
+    width: 30%;
+    
+}
+.purple{
+    color: rgb(169, 97, 236);
+}
+
+@keyframes animate {
+    to{
+        transform: translateY(-80px);
+    }
+    from{
+        transform: translateY(0px);
+
+    }
+}
+@keyframes animatetext {
+    to{
+        opacity: 100%;
+    }
+    from{
+        opacity: 0;
+    }
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(139, 139, 226);
+    font-size: 1.02rem;
+}
+.left a:hover{
+    color: rgb(139, 139, 226);
+}
+footer {
+    font-family: "Poppins", sans-serif;
+  }
+  footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer span a {
+    color: crimson;
+    text-decoration: none;
+  }
+  
+  footer span a:hover {
+    text-decoration: underline;
+  }
+main{
+    height: 88vh;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 5px solid;
+  border-image: linear-gradient(45deg, purple, orange) 1;
+  padding: 1rem;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    color: white;
+    background-color: transparent;
+  }
+  
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    margin: auto;
+    display: block;
+    font-size: 20px;
+  }
+
+  
+
+  .container {
+    border-radius: 5px;
+    background-color:rgb(3, 3, 51);
+    padding: 20px;
+  }
+  .container h1{
+    text-align: center;
+  }
+ #output{
+    text-align: center;
+ }
+ .btns{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    margin-top: 20px;
+ }
+ button{
+    background-color: transparent;
+    border:2px solid white;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 6px;
+ }
+ button:hover{
+    cursor: pointer;
+ }
+
+ img{
+    width: 300px;
+    /* height: 100px; */
+}
+.box {
+
+    height: 400px;
+    width: 600px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.slide {
+    position: absolute;
+    transition: all 0.5s ease;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.slideleft{
+    width: 50%;
+
+}
+.slideright{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slide button{
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+#prev{
+    position: relative;left: 10vw;
+}
+#next{
+    position: relative;right: 15vw;
+}
+#project{
+    background-color: rgb(23, 23, 61);
+}
+#project h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.slideright button{
+    width: 100px;
+}
