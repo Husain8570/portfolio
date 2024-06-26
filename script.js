@@ -55,16 +55,3 @@ document.getElementById("prev").addEventListener('click', () => {
     counter--;
     slideImage();
 });
-
-document.getElementById('stone').addEventListener('click',()=>{
-    window.open('https://husain8570.github.io/flipkart-clone.github.io/','_blank')
-})
-document.getElementById('flipkart').addEventListener('click',()=>{
-    window.open('https://husain8570.github.io/flipkart-clone.github.io/','_blank')
-})
-document.getElementById('calc').addEventListener('click',()=>{
-    window.open('https://husain8570.github.io/calculator.github.io/','_blank')
-})
-document.getElementById('algo').addEventListener('click',()=>{
-    window.open('https://husain8570.github.io/algovisualiser.github.io/','_blank')
-})
